@@ -1,0 +1,191 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+body{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 1.3rem;
+	background-image:url(images/05_02_010039_full.jpg);
+	background-position: cover;
+}
+img{
+	max-width:100%;
+}
+h1{
+	text-align: center;
+	font-size: 2.5rem;
+	color:white;
+	background-color: rgba(0,0,0,.8);
+	padding: 7%;
+
+}
+h2{
+	text-align: center;
+}
+
+h4{
+	color:white;
+	background-color: rgba(0,0,0,.8);
+	display:inline-block;
+	float:left;
+	width: 100%;
+	font-size: 3rem;
+	text-align: center;
+	padding: 10% 0;
+}
+h5{
+	text-align: center;
+	font-size: 1.5rem;
+	color:white;
+	line-height: 1.5;
+	background-color: rgba(0,0,0,.8);
+	padding: 7%;
+}
+
+a{	text-decoration: none;
+	padding:10% 0;
+	color:white;
+	letter-spacing: 3px;
+}
+
+h1>a{
+	display: inline-block;
+	width: 50%;
+}
+#yes{
+	color:lightgreen;
+	background-color: rgba(0,0,0,.8);
+	margin:2%;
+	font-size: 2rem;
+	padding:5% 0;
+	width: 45%;
+	float:left;
+	text-align: center;
+}
+
+#no{
+	color:#ff3232;
+	background-color: rgba(0,0,0,.8);
+	margin:2%;
+	font-size: 2rem;
+	padding:5% 0 ;
+	width: 45%;
+	float:left;
+	text-align: center;
+}
+
+.duncan>img{
+	width: 20%;
+	margin:0 30%;
+	padding:0 10%;
+}
+
+.duncan{
+	text-align: center;
+	background-color: rgba(0,0,0,.8);
+	color:white;
+}
+
+p.subheading{
+	color:gray;
+	background-color: rgba(0,0,0,.8);
+	float:left;
+	width: 100%;
+	font-size: 1rem;
+	text-align: center;
+	padding-top:0;
+	padding: 0 3% 3% 3%;
+}
+
+a>h4:hover{
+	background-color: rgb(0,191,255);
+}
+a>h5:hover{
+	color:black;
+	background-color: rgba(255,255,255,.8);
+}
+#yes:hover{
+	background-color: lightgreen;
+	color:black;
+}
+#no:hover{
+	background-color:#ff3232;
+	color:black;
+}
+.vs{
+	float:left;
+	padding:1% 0;
+	margin:1%;
+	font-size: 4rem;
+	background-color: black;
+	width:20%;
+}
+a>h2{
+	width: 35%;
+	float: left;
+	font-size: 1.5rem;
+	padding:2% 0;
+	margin:2%;
+	background-color: rgba(0,0,0,.8);
+}
+
+.games{
+	position: relative;
+	width:80%;
+	margin:0 auto;
+}
+.game{
+	display: inline-block;
+	width: 100%;
+}
+
+.team{
+	width: 48%;
+	margin:1%;
+	float:left;
+	color:white;
+	background-color: rgba(0,0,0,.8);
+
+}
+.teamInfo{
+	border: 3px solid black;
+	padding:5%;
+	color:black;
+	background-color: white;
+	line-height: 1.5;
+}
+.team>img{
+	margin:5% 30% 0 30%
+}
+.summary{
+	width: 40%;
+	display:inline-block;
+	padding: 6% 7%;
+	margin:3%;
+	float:left;
+	line-height:1.5;
+	background-color: rgba(0,0,0,.8);
+	color:white;
+	letter-spacing: 1px;
+}
+.logo{
+	margin:3%;
+}
+
+
+/*@media screen and (max-width:1080px){
+	h1{color:red;}
+	.games ~a:first-child{
+		width:100%;
+	}
+}*/
